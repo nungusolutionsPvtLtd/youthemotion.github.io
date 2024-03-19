@@ -1,0 +1,427 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter:brightness(60%)
+}
+a{
+	text-decoration: none;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+}
+.top-nav{
+	background-color: rgba(0, 0, 0, 0.765);
+	align-items: right;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top-nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.top-nav ul li{
+	margin-left: 30px;
+	font-size: 2rem;
+	color: white;
+	text-decoration: none;
+
+}
+.top-nav ul li a{
+	color: white;
+	font-weight: bolder;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container .heading{
+	width: 50%;
+	padding-bottom: 30px;
+
+}
+.container .heading h3{
+	font-size: 3em;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 3px solid rgba(255, 165, 0, 0.815);
+	color: rgba(255, 165, 0, 0.815) ;
+}
+
+.container .heading h4{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.container .heading h3 span{
+	font-weight: 120;
+	color:rgb(202, 202, 202);
+}
+.container .heading .header{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    margin-top: 10px;
+	margin-left: 10px;
+    width: 32,5%;
+}
+.container .heading .header h5{
+    font-size: 20px;
+    background-color: rgb(118, 205, 38);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+	transition:all 0.5s;
+}
+.container .heading .header h5:hover{
+	background-color:rgba(255, 165, 0, 0.815);
+}
+.container .heading .header .about{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.container .heading .header a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.container .article-header{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container .article-header h4{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    padding-top: 20px ;
+    padding-bottom: 30px;
+    border: 3px solid rgba(255, 166, 0, 0.842);
+    border-radius: 5px ;
+    margin-bottom: 10px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.container .article-header .dream a{
+    text-decoration: none;
+}
+.container .article-header .dream h4:hover{
+    background-color: rgb(118, 205, 38);
+}
+
+.container .article-header .dream{
+    padding-top: 20px;
+    display: flex;
+	flex-direction: column;
+	width: 32.5%;
+    margin-bottom: 10px;
+}
+.container .btn{
+	margin: 10px 0 10px  0;
+	background:gray;
+	padding: 15px 40px;
+	border-radius: 5px;
+}
+.content .article{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	background-color: rgba(0, 0, 0, 0.838);
+	border-radius: 5px ;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+.content .article .art{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.content .article .art h2{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-right: 100px;
+	color: rgb(142, 142, 142);
+}
+.content .article h1{
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: center;
+}
+.content .article p{
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 20pt;
+}
+.content .article p span{
+	margin-left: 180px;
+}
+.content .container .article .dream{
+	font-size: 20px;
+	margin-left: 40px;
+}
+/* The About Page Details */
+.about-1{
+	background-color: rgba(255, 166, 0, 0.842);
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.about-1 p{
+	text-align: justify;
+    text-justify: inter-word;
+	font-size: 2rem;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	color: white;
+}
+/* Ending About*/
+/* SDG GOALS */
+.sdg {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center ;
+}
+.sdg .sdg-icons {
+	padding-top: 20px;
+    display: flex;
+	flex-direction: column;
+    margin-bottom: 10px;
+}
+.sdg .sdg-icons img{
+	width: 200px;
+	margin-right: 10px;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+
+.sdg .sdg-icons img:hover{
+	background-color: #9c9c9c;
+	border-radius: 5px;
+}
+/* ENDS HERE */
+.btn{
+	padding-top: 20px;
+}
+.btn a {
+	color: #fff;
+    background-color: gray;
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: bolder;
+	letter-spacing: 1.2px;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+.sub-footer {
+	border-top: 1px solid #eee;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.765);
+}
+.sub-footer p {
+	font-size: 20px;
+	color: gray;
+	line-height: 60px;
+}
+
+.sub-footer a{
+	text-decoration: none;
+	color: skyblue;
+}
+
+
+/*footer starts here*/
+
+.content .footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.765);
+	padding-left: 530px;
+	padding-right: 600px;
+}
+.content .footer .social-icons {
+	padding-top: 20px;
+    display: flex;
+	flex-direction: column;
+    margin-bottom: 10px;
+	border-bottom: 2px solid white;
+}
+.content .footer .social-icons img{
+	width: 50px;
+	transition: all 0.5s;
+}
+.content .footer .social-icons img:hover{
+	background-color: #9c9c9c;
+	border-radius: 5px;
+}
+.content marquee{
+	background-color: rgba(255, 3, 87, 0.692);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+@media  only screen and (max-width: 768px){
+	.top-nav ul{
+		align-items:center ;
+		text-align: center;
+		justify-content: center;
+	}
+	.top-nav ul li{
+		margin-left: 30px;
+		font-size: 20px;
+	
+	}
+	.container .article-header{
+		flex-direction:column;
+	}
+
+	.container .article-header .dream{
+		width: 100%;
+	
+	}
+	.content .footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: rgba(0, 0, 0, 0.765);
+		padding-left: 120px;
+		padding-right: 200px;
+	}
+	.content .footer .social-icons img{
+		width: 60px;
+	}
+	.container .heading .header{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+		width: 32,5%;
+	}
+	.container .heading .header h5{
+		margin-top: 10px;
+	}
+	.container .heading .header .about{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.content .article .art h2{
+		padding-top: 20px;
+		padding-bottom: 5px;
+		padding-right: 100px;
+		color: rgba(142, 142, 142, 0.452);
+	}
+	.content .article{
+		padding-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.content .article h1{
+		text-align: left;
+		margin-left: 0;
+		margin-right: 5px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid rgb(255, 255, 255);
+		margin-right: 150px;
+	}
+	.content .article p{
+		padding-top: 10px;
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 15px;
+		word-spacing: 2px;
+	}
+	/* The About Page Details */
+	.about-1{
+		margin-left: 0;
+		margin-right: 0;
+		border: 0;
+		border-radius: 0;
+		padding: 0;
+	}
+	.about-1 p{
+		font-size: 20px;
+		text-align: center;
+		text-justify: 0;
+	}
+	/* Ending About*/
+	/* SDG GOALS */
+	.sdg {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding-top: 0;
+	}
+	.sdg .sdg-icons img{
+		width: 80px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
+
+	.sdg .sdg-icons img:hover{
+		background-color: #9c9c9c;
+		border-radius: 5px;
+	}
+	/* ENDS HERE */
+}
+@media  only screen and (max-width: 642px){
+	.container .heading{
+		width:100%;
+	}
+	.container .heading h3{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+}
